@@ -1,0 +1,17 @@
+#header { /*header da página */
+    background-color: #FAECD4; /*background com essa cor*/
+    padding: 33px; /*padding para que a cor ocupe um espaço maior em volta do texto*/
+    margin: 0px; /*sem borda, para que a cor chegue até o elemento abaixo da imagem*/
+}
+
+#imagem { /*imagem do cachorro*/
+   border: 4px dashed black; /*borda cortada preta e com 4 pixeis*/
+    padding: 17px; /*padding para que tenha espaço entre a imagem e a borda*/
+    
+}
+
+#paragrafo { /*texto na parte de baixo da página*/  
+    border: 4px solid #FAECD4; /*borda sólida com essa cor*/
+    padding: 5px; /*padding para que o texto não encoste na borda*/
+    text-align: center; /*alinha o texto no centro*/
+}

@@ -1,0 +1,15 @@
+#header {
+    color: #34D0AD; /*cor do texto do título*/
+    text-align:center;  /*título alinhado no centro*/
+}
+
+.paragrafo {
+    border: 3px solid #34D0AD;  /*border de 3 pixeis nos parágrafos, com a cor especificada*/
+}
+
+#autor { 
+     color: #34D0AD; /*cor do texto*/
+     border: 3px solid black; /*border preta e sólida de 3 pixeis*/
+     border-radius: 25px; /*faz a borda ser curvada*/
+     padding: 10px; /*padding para que o texto não fique muito perto da borda*/
+}
