@@ -1,0 +1,16 @@
+.elem_rosa { /*a segunda tarefa a ser feita em cada dia é rosa*/
+    color: #FF50B4;
+}
+
+body {/* o body de toda a página tera essa cor de fundo*/
+     background-color:  #34D0AD;
+}
+
+#lista_num { /*a lista de números pros dias da semana*/
+     background-color: white; /*cor de funda da lista é branco*/
+     border: 7px solid  #FF50B4;   /*a lista tem uma borda rosa com 7 pixeis*/
+}
+
+.dias_semana { /*cada dia da semana enumerado deve ter um padding para que ele fique um pouco mais longe da borda rosa*/
+    padding: 7px;
+}
