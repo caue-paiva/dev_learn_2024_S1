@@ -1,0 +1,35 @@
+#titulo {
+    display: flex;
+    justify-content: center;
+    color: #34D0AD;      
+}
+
+#conteiner_poema {
+    display: flex;
+    justify-content: center;             
+}
+
+#texto_poema {
+    display: grid;
+    grid-template-columns: 294px 294px;  
+    column-gap: 177px;                          
+    align-items: center; 
+}
+
+.paragrafo {
+    border: 3px solid #34D0AD;           
+    padding: 10px;                     
+    margin: 0;                                    
+}
+
+#autor { 
+     display: grid;                     
+          
+    border: 2px solid black;         
+    border-radius: 18px;   
+    padding: 0 15px;
+    color: #34D0AD;                   
+    margin: 22px auto;                
+    width: max-content; 
+    text-align: center;    /*é possível usar o text-align com o display grid sem problemas*/
+}
