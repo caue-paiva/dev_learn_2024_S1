@@ -4,8 +4,8 @@
     color: #34D0AD;      
 }
 
-#conteiner_poema { /*container pros 2 paràgrafos do poema*/
-    display: flex;
+#conteiner_poema { /*container pros 2 parágrafos do poema*/
+    display: flex; /*so tem um elemento, usa o flex mesmo*/
     justify-content: center; /*conteudo fica no meio*/
 }
 
@@ -22,10 +22,10 @@
     margin: 0;                                    
 }
 
-#autor { 
+#autor { /*tag com o nome do autor*/
     display: flex;  /*autor vai ser display flex mesmo, pq so tem uma coisa*/                   
     border: 2px solid black;   /*border preta */   
-    border-radius: 18px;   /*faz a border sem arredondada*/
+    border-radius: 18px;   /*faz a border ser arredondada*/
     padding: 0 15px; /*sem padding vertical, mas com 15px de padding horizontal*/
     color: #34D0AD;                   
     margin: 22px auto; /*margin vertical fixa, margen horizontal automatica*/                
