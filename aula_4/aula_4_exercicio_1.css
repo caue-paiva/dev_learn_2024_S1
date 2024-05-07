@@ -1,11 +1,11 @@
 #titulo {
-    display: flex; /*titulo vai ser display flex mesmo, pq so tem uma coisa*/
+    display: grid;
     justify-content: center; /*coloca no centro*/
     color: #34D0AD;      
 }
 
 #conteiner_poema { /*container pros 2 parágrafos do poema*/
-    display: flex; /*so tem um elemento, usa o flex mesmo*/
+    display: grid; 
     justify-content: center; /*conteudo fica no meio*/
 }
 
@@ -23,7 +23,7 @@
 }
 
 #autor { /*tag com o nome do autor*/
-    display: flex;  /*autor vai ser display flex mesmo, pq so tem uma coisa*/                   
+    display: grid;                
     border: 2px solid black;   /*border preta */   
     border-radius: 18px;   /*faz a border ser arredondada*/
     padding: 0 15px; /*sem padding vertical, mas com 15px de padding horizontal*/
