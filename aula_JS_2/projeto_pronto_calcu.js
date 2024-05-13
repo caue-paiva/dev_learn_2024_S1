@@ -4,9 +4,18 @@ function calcula(){
     
     let operando = document.getElementById("operador").value;//pega o operador da conta
     
-    let resultado;
+    let resultado = realiza_operacao(valor1,valor2,operando);
     
-    switch  (operando){  //switch na operação
+  
+    let resultado_tag = document.getElementById("resultado"); //pega a tag do resultado
+    resultado_tag.innerText = "Resultado:  " + (resultado.toString()); //muda o inner text dessa tag 
+    
+}
+
+
+function realiza_operacao(valor1,valor2,operando){
+    
+      switch  (operando){  //switch na operação
         case  "+":
             resultado = valor1 + valor2;
         break;
@@ -29,8 +38,6 @@ function calcula(){
         break;
     }
     
-    
-    let resultado_tag = document.getElementById("resultado"); //pega a tag do resultado
-    resultado_tag.innerText = "Resultado:  " + (resultado.toString()); //muda o inner text dessa tag 
+    return resultado;
     
 }
